@@ -310,6 +310,7 @@ a:hover {
 
 .navbar-brand img[src$=svg] {
     min-width: 100px;
+    height:75px;
 }
 
 .nav-center .navbar-brand img {
@@ -361,6 +362,15 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+ 
+/*dimensions du logo au dessus du h1 page d'accueil*/
+.image-resize-logo{
+   height: 75px;
+}
+.image-resize-mode {
+    width:100px;
+     
 }
 
 @media (min-width: 768px) {
@@ -717,6 +727,12 @@ h2 {
     line-height: 1.4em;
 }
 
+.justify-bloc{
+    display: flex;
+    margin:auto;
+    width:65%;
+}
+
 h3 {
     font-size: 15px;
     text-transform: uppercase;
@@ -984,7 +1000,7 @@ h4 {
     }
 
     .navbar-brand img {
-        max-height: 40px;
+        max-height: 50px;
         width: auto;
     }
 
@@ -1065,15 +1081,18 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 375px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
-}
+ }
+
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .image-resize-logo{
+        height:50px;}
 }
