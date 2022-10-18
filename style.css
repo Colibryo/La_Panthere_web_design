@@ -372,10 +372,21 @@ a:hover {
     width:auto;
    height: 75px;
 }
+/*dimensions du logo avec uniquement la tête de panthère*/
 .image-resize-mode {
     width:100px;
     height:auto;
-     
+}
+.col-sm-3 a{
+    display:inline-block;
+    width:40px;
+    height:40px;
+}
+
+li a{
+    display:inline-block;
+    width:200px;
+    height:20px;
 }
 
 @media (min-width: 768px) {
@@ -837,16 +848,6 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577 !important;
     border-color: #364577 !important;
-}
-
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-    background-size: auto;
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.jpg");
-    background-size: auto;
 }
 
 .bg-banniere {
