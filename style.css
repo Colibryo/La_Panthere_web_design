@@ -303,12 +303,15 @@ a:hover {
 }
 
 .navbar-brand img {
+    width:auto;
+    height: auto;
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
 }
 
 .navbar-brand img[src$=svg] {
+    width:auto;
     min-width: 100px;
     height:75px;
 }
@@ -366,10 +369,12 @@ a:hover {
  
 /*dimensions du logo au dessus du h1 page d'accueil*/
 .image-resize-logo{
+    width:auto;
    height: 75px;
 }
 .image-resize-mode {
     width:100px;
+    height:auto;
      
 }
 
@@ -590,6 +595,7 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog img {
+    width:auto;
     max-height: 90vh;
     margin: 0 auto;
 }
@@ -835,18 +841,22 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
+    background-size: auto;
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.jpg");
+    background-size: auto;
 }
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
+    background-size: auto;
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
+    background-size: auto;
 }
 
 @media (max-width: 1024px) {
@@ -1002,6 +1012,7 @@ h4 {
     .navbar-brand img {
         max-height: 50px;
         width: auto;
+        height: auto;
     }
 
     .nav-invert .navbar-header {
