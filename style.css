@@ -377,16 +377,18 @@ a:hover {
     width:100px;
     height:100px;
 }
+/*ajustement espacement des liens-icones*/
 .col-sm-3 a{
     display:inline-block;
     width:48px;
     height:48px;
 }
-
+/*ajustement espacement de liens du footer*/
 li a{
     display:inline-block;
-    width:200px;
-    height:40px;
+    margin: 0 2px 15px 2px;
+    width:auto;
+    height:20px;
 }
 
 @media (min-width: 768px) {
@@ -1097,19 +1099,23 @@ h4 {
         height: 320px;
     }
 }
-
+/*réduction ligne pour petit formats mobiles*/
 @media (max-width: 375px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
- }
 
+    .snapshot-lb .lightbox-caption {
+        line-height: 1;
+    }
+ }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
     .image-resize-logo{
-        height:50px;}
+        width:250px;
+        height:40px;}
 }
