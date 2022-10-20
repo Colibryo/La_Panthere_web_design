@@ -867,6 +867,10 @@ h4 {
     background-size: auto;
 }
 
+.bg-lines-h2-bg {
+    background-image: url("img/lines-h2-bg.png");
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
