@@ -818,7 +818,7 @@ h4 {
     background-color: #364577;
 }
 
-.bgc-atomic-tangerine {
+.bgc-light-brown {
     background-color:#98653A;
 }
 
@@ -826,12 +826,12 @@ h4 {
     color:#FFFAFA ;
 }
 
-.btn-atomic-tangerine {
+.btn-light-brown {
     background:#98653A;
     color: #FFFAFA;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-light-brown:hover {
     background: #c27956;
     color: #FFFFFF;
 }
@@ -844,11 +844,11 @@ h4 {
     color: #cccccc;
 }
 
-.ltc-atomic-tangerine {
+.ltc-light-brown {
     color:#98653A;
 }
 
-.ltc-atomic-tangerine:hover {
+.ltc-light-brown:hover {
     color: #c27956;
 }
 
@@ -1103,17 +1103,6 @@ h4 {
         height: 320px;
     }
 }
-/*réduction ligne pour petit formats mobiles*/
-@media (max-width: 375px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .snapshot-lb .lightbox-caption {
-        line-height: 1;
-    }
- }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
@@ -1122,4 +1111,14 @@ h4 {
     .image-resize-logo{
         width:250px;
         height:40px;}
+    /*réduction ligne pour petit formats mobiles*/
+    .bloc {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .snapshot-lb .lightbox-caption {
+    line-height: 1;
+    }
+
 }
