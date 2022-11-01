@@ -357,6 +357,11 @@ a:hover {
     width: 26px;
 }
 
+.navbar-toggle:hover,
+.navbar-toggle:focus{
+background-color: #c27956;
+}
+
 .nav-invert .navbar .nav {
     float: left;
 }
@@ -378,6 +383,10 @@ a:hover {
     width:100px;
     height:100px;
 }
+footer p{
+    margin-top:2em;
+}
+
 /*ajustement espacement des liens-icones*/
 footer .col-sm-3 {
     display: flex;
@@ -567,11 +576,13 @@ button {
     opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
+    border:1px;
 }
 
 .scrollToTop span {
     margin-top: 6px;
 }
+ 
 
 .showScrollTop {
     font-size: 14px;
@@ -584,7 +595,7 @@ a[data-lightbox] {
     text-align: center;
 }
 
-a[data-lightbox]:hover::before {
+a[data-lightbox]:hover::before, a[data-lightbox]:focus::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
@@ -843,7 +854,8 @@ h4 {
     color: #FFFAFA;
 }
 
-.btn-light-brown:hover {
+.btn-light-brown:hover,
+.btn-light-brown:focus {
     background: #c27956;
     color: #FFFFFF;
     border: solid 1px;
@@ -861,7 +873,8 @@ h4 {
     color:#98653A;
 }
 
-.ltc-light-brown:hover {
+.ltc-light-brown:hover
+.ltc-light-brown:focus {
     color: #c27956;
 }
 
