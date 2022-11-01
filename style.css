@@ -667,6 +667,14 @@ a[data-lightbox]:hover img {
     color: #FFF;
 }
 
+
+.close-lightbox:focus,
+.next-lightbox:focus,
+.prev-lightbox:focus {
+    opacity: 1.0;
+    border: #FFF;
+}
+
 .next-lightbox,
 .prev-lightbox {
     font-size: 20px;
