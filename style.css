@@ -196,7 +196,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: black;
 }
 
 .d-bloc .panel button:hover,
@@ -699,8 +699,8 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #202037;
+    font-weight: 500;
+    color: #05050e;
 }
 
 li>a{
@@ -1118,6 +1118,12 @@ h4 {
 }
 
 @media (max-width: 767px) {
+
+    /*thème couleur mobile*/
+    .bgc-mobile{
+     background-color:#3c2109;
+    }
+
     .bloc-mob-center-text {
         text-align: center;
     }

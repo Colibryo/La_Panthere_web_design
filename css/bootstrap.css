@@ -112,6 +112,8 @@ svg:not(:root) {
 
 figure {
     margin: 1em 40px;
+    font-style: italic;
+    text-align: center;
 }
 
 hr {
@@ -1420,12 +1422,6 @@ a:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px;
-}
-
-figure {
-    margin: 0;
-    font-style: italic;
-    text-align: center;
 }
 
 img {
@@ -3196,6 +3192,11 @@ textarea.form-control {
 
 input[type=search] {
    appearance: none;
+}
+a:focus,
+a:hover {
+    color: #ffff;
+    font-weight: 700;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
