@@ -14,7 +14,7 @@ button {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     cursor: pointer;
 }
 
@@ -103,7 +103,7 @@ a:hover {
     color: rgba(255, 255, 255, .7);
 }
 
-.d-bloc button:hover {
+.d-bloc button:hover{
     color: rgba(255, 255, 255, .9);
 }
 
@@ -141,6 +141,7 @@ a:hover {
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
 .d-bloc a:hover .icon-md,
+.d-bloc a:focus .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -378,12 +379,23 @@ a:hover {
     height:100px;
 }
 /*ajustement espacement des liens-icones*/
+footer .col-sm-3 {
+    display: flex;
+    justify-content: center;
+}
+
 .col-sm-3 a{
     display:inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width:48px;
     height:48px;
+    margin:10px;
+    text-decoration: none;
 }
-/*ajustement espacement de liens du footer*/
+
+/*ajustement espacement des liens du footer*/
 li a{
     display:inline-block;
     margin: 0 2px 15px 2px;
@@ -834,6 +846,7 @@ h4 {
 .btn-light-brown:hover {
     background: #c27956;
     color: #FFFFFF;
+    border: solid 1px;
 }
 
 .ltc-white {
@@ -1120,5 +1133,13 @@ h4 {
     .snapshot-lb .lightbox-caption {
     line-height: 1;
     }
+    
+    /*ajustement de la position des liens du footer*/
+
+    footer .col-sm-12 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    margin: auto;}
 
 }

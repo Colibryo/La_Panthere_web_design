@@ -1424,6 +1424,8 @@ a:focus {
 
 figure {
     margin: 0;
+    font-style: italic;
+    text-align: center;
 }
 
 img {
@@ -4847,7 +4849,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .nav>li>a:focus,
 .nav>li>a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     background-color: #eee;
 }
 
